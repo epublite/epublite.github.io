@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Important pages
+Sitemap: https://epublite.com/sitemap.xml
+
+# Block unnecessary system paths (if any exist)
+Disallow: /cgi-bin/
+Disallow: /wp-admin/
+Disallow: /tmp/
+Disallow: /private/
+
+# Allow essential assets
+Allow: /*.js$
+Allow: /*.css$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.svg$

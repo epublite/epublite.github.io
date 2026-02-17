@@ -1,0 +1,8 @@
+/* TEAM */
+Developer: EPUBLite
+Website: https://epublite.com
+Contact: https://epublite.com/contact
+
+/* SITE */
+Standards: HTML5, CSS3, JavaScript
+Privacy Friendly EPUB Reader
