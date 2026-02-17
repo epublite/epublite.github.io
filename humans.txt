@@ -1,7 +1,7 @@
 /* TEAM */
 Developer: EPUBLite
-Website: https://epublite.com
-Contact: https://epublite.com/contact
+Website: https://epublite.github.io
+Contact: https://forms.gle/6NtGN2iXuvMZDosJ7
 
 /* SITE */
 Standards: HTML5, CSS3, JavaScript
