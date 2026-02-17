@@ -28,7 +28,7 @@ async function init(){
   const theme = await getSetting('theme');
   if (theme === 'dark') document.documentElement.setAttribute('data-theme','dark');
   const savedFont = await getSetting('fontSize');
-  if (savedFont) { fontSize = savedFont; document.querySelector('.content').style.fontSize = fontSize + 'px'; }
+  if (savedFont) { fontSize = savedFont; document.querySelector('#content').style.fontSize = fontSize + 'px'; }
   const savedView = await getSetting('viewMode');
   if (savedView) { viewMode = savedView; if (viewModeSelect) viewModeSelect.value = viewMode; }
   await refreshLibrary();
@@ -216,14 +216,14 @@ function updateProgress(chapterIndex){
  
 
 document.getElementById('increaseFont').addEventListener('click', ()=>{
-  fontSize = Math.min(40, fontSize + 2); document.querySelector('.content').style.fontSize = fontSize + 'px'; saveSetting('fontSize', fontSize);
+  fontSize = Math.min(40, fontSize + 2); document.querySelector('#content').style.fontSize = fontSize + 'px'; saveSetting('fontSize', fontSize);
 });
 document.getElementById('decreaseFont').addEventListener('click', ()=>{
-  fontSize = Math.max(10, fontSize - 2); document.querySelector('.content').style.fontSize = fontSize + 'px'; saveSetting('fontSize', fontSize);
+  fontSize = Math.max(10, fontSize - 2); document.querySelector('#content').style.fontSize = fontSize + 'px'; saveSetting('fontSize', fontSize);
 });
 
 document.getElementById('alignment').addEventListener('change', e=>{
-  document.querySelector('.content').style.textAlign = e.target.value;
+  document.querySelector('#content').style.textAlign = e.target.value;
   saveSetting('alignment', e.target.value);
 });
 
