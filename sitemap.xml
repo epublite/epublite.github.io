@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://epublite.com/</loc>
+    <loc>https://epublite.github.io/</loc>
     <lastmod>2026-02-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://epublite.com/privacy</loc>
+    <loc>https://epublite.github.io/privacy</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
