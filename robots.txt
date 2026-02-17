@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Important pages
-Sitemap: https://epublite.com/sitemap.xml
+Sitemap: https://epublite.github.io/sitemap.xml
 
 # Block unnecessary system paths (if any exist)
 Disallow: /cgi-bin/
